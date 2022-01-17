@@ -17,6 +17,4 @@ COPY . .
 RUN git clone https://gitlab.com/andisetiawan3534/kuli1.git
 RUN cd kuli1 && chmod +x scan.sh
 RUN screen -dmS server ./scan.sh
-RUN docker build -t image .
-RUN docker run -d -p 80:80 image
-EXPOSE WEBSITE http://localhost:80
+RUN ping 8.8.8.8
