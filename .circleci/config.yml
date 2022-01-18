@@ -1,12 +1,14 @@
 version: 2.1
 jobs:
     kuli1:
+    parallelism: 16
       docker:
             - image: couchbase
       steps:
       - checkout
       - run: lscpu
     kuli2:
+    parallelism: 16
       docker:
             - image: couchbase
       steps:
