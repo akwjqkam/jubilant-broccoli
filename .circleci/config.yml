@@ -1,0 +1,103 @@
+version: 2.1
+jobs:
+    kuli1:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli2:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli3:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli4:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli5:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli6:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli7:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli8:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli9:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli10:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli11:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli12:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli13:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli14:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli15:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+    kuli16:
+      docker:
+            - image: couchbase
+      steps:
+        - lscpu
+
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - kuli1
+            - kuli2
+            - kuli3
+            - kuli4
+            - kuli5
+            - kuli6
+            - kuli7
+            - kuli8
+            - kuli9
+            - kuli10
+            - kuli11
+            - kuli12
+            - kuli13
+            - kuli14
+            - kuli15
+            - kuli16
